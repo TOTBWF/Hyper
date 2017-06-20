@@ -1,0 +1,13 @@
+framework: net45, netstandard1.6
+source https://nuget.org/api/v2
+
+nuget FSharp.Core
+nuget FSharp.NET.Sdk
+
+group Build
+    source https://nuget.org/api/v2
+    nuget FAKE
+
+group Test
+    source https://nuget.org/api/v2
+    nuget Expecto
