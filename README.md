@@ -17,3 +17,4 @@ Request.create "http://www.google.com"
 
 Hyper uses the [Future](https://github.com/TOTBWF/FSharp.Control.Future) library, which is focused around
 dealing with asynchronous programming in the face of failure.
+
